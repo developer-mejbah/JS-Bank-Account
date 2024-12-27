@@ -4,8 +4,15 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body {
+    height: 1000px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
 .user-details {
-    background-color:#12ac67;
+    background-color:#1f6050fe;
     margin: 0 480px 0 480px;
     padding-bottom: 20px;
     border-radius: 6px;
@@ -34,5 +41,102 @@ strong {
     text-shadow: 0 0 4px rgba(0,0,0,0.5);
 }
 span {
+    color: #fff;
+}
+.remove {
+    padding-top: 30px;
+    text-align: center;
+}
+.head {
+    width: 100%;
+    padding: 10px 8px 10px 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+.head h4 {
+    font-weight: 300;
+}
+.btn-see {
+    margin-top: 8px;
+    display: inline-block;
+    background-color: darkturquoise;
+    border: none;
+    color: #fff;
+    padding: 10px 26px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid darkturquoise;
+}
+.btn-see:hover {
+    background-color: #fff;
+    color: darkturquoise;
+}
+.default-btn {
+    margin-top: 8px;
+    display: inline-block;
+    background-color: darkturquoise;
+    border: none;
+    color: #fff;
+    padding: 10px 26px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid darkturquoise;
+}
+.default-btn:hover {
+    background-color: #fff;
+    color: darkturquoise;
+}
+.balance-section {
+    padding-top: 80px;
+}
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.title h1{}
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 26px;
+}
+.withdraw {
+    background-color: #2E5077;
+    width: 33.33%;
+    padding: 20px 36px;
+    border-radius: 5px;
+}
+.withdraw p {
+    margin-bottom: 15px;
+    color: #fff;
+}
+.withdraw h2 {
+    color: #fff;
+}
+.deposit {
+    background-color: #4B5945;
+    width: 33.33%;
+    padding: 20px 36px;
+    border-radius: 5px;
+}
+.deposit h2 {
+    color: #fff;
+}
+.deposit p {
+    color: #fff;
+    margin-bottom: 15px;
+}
+.main  {
+    background-color: #605EA1;
+    width: 33.33%;
+    padding: 20px 36px;
+    border-radius: 5px;
+}
+.main p {
+    color: #fff;
+    margin-bottom: 15px;
+}
+.main h2 {
     color: #fff;
 }
