@@ -6,6 +6,7 @@ document.getElementById("login-btn").addEventListener("click", function(){
     const passValue = passField.value;
 
     if (emailValue === "mejbah@gmail.com" && passValue === "mejbah456"){
+        window.location.href ="dashboard.html";
         console.log("Login Successful!!");
     } else {
         alert("Wrong email or password");

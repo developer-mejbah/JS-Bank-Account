@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.user-details {
+    background-color:#12ac67;
+    margin: 0 480px 0 480px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+}
+.user-info {
+    text-align: center;
+}
+.img {
+    width: 100%;
+}
+.img img {
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 30%;
+    box-shadow:0 0 4px rgba(0,0,0,0.7) ;
+}
+.user h1 {
+    color: #fff;
+    font-weight: 700;
+    margin: 10px 0 10px 0;
+    text-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+strong {
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+span {
+    color: #fff;
+}
