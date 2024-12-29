@@ -204,3 +204,22 @@ span {
     color: #fff;
     cursor: pointer;
 }
+.anchor {
+    margin-top: 75px;
+    text-align: center;
+}
+.anchor a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 6px;
+    border: 2px solid cornflowerblue;
+    transition: 0.5s;
+    font-weight: 600;
+}
+.anchor a:hover{
+    background-color: #fff;
+    color: cornflowerblue;
+}
