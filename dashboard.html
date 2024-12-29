@@ -41,18 +41,38 @@
             <div class="row">
                 <div class="withdraw">
                     <p>Withdraw</p>
-                    <h2>$0</h2>
+                    <h2>$<span id="zero">0</span></h2>
                 </div>
                 <div class="deposit">
                     <p>Deposit</p>
-                    <h2>$0</h2>
+                    <h2>$<span id="zero2">0</span></h2>
                 </div>
                 <div class="main">
                     <p>Main Balance</p>
-                    <h2>$3000</h2>
+                    <h2>$<span id="taka">3000</span></h2>
                 </div>
             </div>
         </div>
+    </section>
+    <section class="field-section">
+        <div class="container">
+           <div class="field-row">
+            <div class="withdraw-area">
+                <p>Withdraw Amount</p>
+                <input id="withdraw" class="input" type="number" placeholder="Enter Withdraw Amount">
+                <div>
+                    <button id="btn3" class="btn-3">Withdraw</button>
+                </div>
+            </div>
+            <div class="deposit-area">
+                <p>Deposit Amount</p>
+                <input id="deposit" class="input" type="number" placeholder="Enter Deposit Amount">
+                <div>
+                    <button id="btn4" class="btn-4">Deposit</button>
+                </div>
+           </div>
+            </div>
+            </div>
     </section>
     <!-- <a href="index.html">Back To Home</a> -->
      <script src="script.js"></script>

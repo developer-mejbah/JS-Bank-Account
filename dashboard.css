@@ -94,8 +94,13 @@ span {
 .title {
     text-align: center;
     margin-bottom: 30px;
+    background-color: dodgerblue;
+    padding: 15px 0 ;
+    border-radius: 4px;
 }
-.title h1{}
+.title h1{
+    color: #fff;
+}
 .row {
     display: flex;
     justify-content: space-between;
@@ -139,4 +144,63 @@ span {
 }
 .main h2 {
     color: #fff;
+}
+
+.field-section {
+    padding-top: 50px;
+}
+.field-row {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.withdraw-area {
+    background-color: #044a72;
+    padding: 24px 16px;
+    border-radius: 4px;
+}
+.withdraw-area p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+.input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+.btn-3 {
+    text-align: center;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: rgb(224, 126, 28);
+    color: #fff;
+    cursor: pointer;
+
+}
+.deposit-area {
+    background-color: #387478;
+    padding: 24px 16px;
+    border-radius: 4px;
+}
+.deposit-area p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+.btn-4 {
+    text-align: center;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: rgb(224, 126, 28);
+    color: #fff;
+    cursor: pointer;
 }
